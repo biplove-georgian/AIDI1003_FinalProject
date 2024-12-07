@@ -26,22 +26,22 @@ cd AIDI1003_FinalProject1
 ```
 
 ### Install Dependencies
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
 
 ### Usuage Guide
 
 #### Running the Flask API
-`python app.py`
+```python app.py```
 
-This command initializes a local server, typically hosted at `http://127.0.0.1:5001/`.
+This command initializes a local server, typically hosted at ```http://127.0.0.1:5001/```.
 
 #### Prediction
 To make predictions, send a POST request to the API with transaction data. This can be done using tools like Postman or through a CURL command:
-`http://127.0.0.1:5001/predict`
+```http://127.0.0.1:5001/predict```
 
 In Postman:
 You can post the above url using post method passing the following raw json in body:
-`[
+```[
     {
         "Time": 10000,
         "V1": -0.1,
@@ -106,6 +106,11 @@ You can post the above url using post method passing the following raw json in b
         "V28": 0.4,
         "Amount": 1200.0
     }
-]`
+]
+```
+
+## Results
+You will see the results based on the inputs passed as whether each transaction is classified as fraud or not.
+
 
 
