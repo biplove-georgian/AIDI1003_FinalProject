@@ -22,7 +22,7 @@ To run this project, you will need Python 3.8 or newer.
 ### Clone the repository
 ```bash
 git clone https://github.com/biplove-georgian/AIDI1003_FinalProject.git
-cd AIDI1003_FinalProject1
+cd AIDI1003_FinalProject
 ```
 
 ### Install Dependencies
